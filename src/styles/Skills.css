@@ -1,0 +1,18 @@
+.stack-card {
+  background-color: rgb(245, 245, 245);
+  height: 100px;
+  width: 100px;
+  margin: 5px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* overflow: hidden; */
+}
+.stack-card > img {
+  height: 60%;
+  width: 60%;
+}

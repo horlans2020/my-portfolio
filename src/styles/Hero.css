@@ -1,0 +1,39 @@
+.container {
+  background: linear-gradient(rgb(255, 255, 255), transparent);
+  /* background-image: image(""); */
+  background-color: rgb(255, 255, 255);
+  height: 58vh;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+.hero-left {
+  /* margin-top: 100px; */
+  height: 100%;
+  flex: 2;
+  /* width: 80%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  /* background: linear-gradient(rgb(172, 171, 171), transparent);
+  background-color: rgba(46, 45, 44); */
+}
+.hero-name {
+  color: rgb(116, 76, 2);
+  font-size: 46px;
+  text-align: right;
+}
+.hero-right {
+  flex: 2;
+}
+.hero-image {
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+  /* background: linear-gradient(rgb(172, 171, 171), transparent); */
+  /* background-color: rgba(46, 45, 44); */
+}
